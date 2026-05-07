@@ -290,6 +290,8 @@ section::before {
   display: inline-block;
   overflow: hidden;
   vertical-align: top;
+  padding: 0.05em 0.18em 0.3em 0.04em;
+  margin: -0.05em -0.18em -0.3em -0.04em;
 }
 
 .hero h1 .char {

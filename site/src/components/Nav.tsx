@@ -6,7 +6,6 @@ export function Nav() {
       <div className="shell row">
         <a href="#top" className="brand">
           {resume.firstName}
-          <span className="dot">.</span>
         </a>
         <div className="nav-links">
           <a href="#about">About</a>
