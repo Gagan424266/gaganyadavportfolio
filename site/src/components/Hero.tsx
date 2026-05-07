@@ -49,7 +49,7 @@ export function Hero() {
         <div className="hero-sub">
           <span className="hero-role">
             <span className="dot" />
-            {resume.title} · React · Node · Django
+            {resume.title} · React · Python · C++
           </span>
           <p className="hero-tagline">{resume.shortBio}</p>
         </div>

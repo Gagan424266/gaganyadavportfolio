@@ -13,8 +13,9 @@ export function Skills() {
           The <em>toolbox</em>.
         </h2>
         <p className="section-lead">
-          Stack used across the past three years — across React frontends, Node and Django
-          backends, and trading-side data work.
+          Stack used across the past three years — React on the front, Python and Django on the
+          back, and C++ for trading-side performance work. Node, MongoDB, Firebase and the rest
+          live in the toolbox below.
         </p>
         <div className="skills-grid">
           {Object.entries(resume.skills).map(([group, items]) => (

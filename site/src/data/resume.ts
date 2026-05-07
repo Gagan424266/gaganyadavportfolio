@@ -7,11 +7,11 @@ export const resume = {
   email: 'gaganyadav424266@gmail.com',
   phone: '+91 93706 76861',
   githubUrl: 'https://github.com/Gagan424266',
-  linkedinUrl: '',
+  linkedinUrl: 'https://www.linkedin.com/in/gagan-yadav-584a9a214/',
   manifesto:
     'I build responsive web apps and low-latency dashboards — modernising legacy stacks, taming real-time data, and shaving milliseconds off the things people actually feel.',
   shortBio:
-    'Full-stack developer focused on React, Node.js, Django and high-frequency trading UIs. Currently shipping low-latency dashboards at Gray Marrow.',
+    'Full-stack developer focused on React, Python and C++ for low-latency trading systems and real-time dashboards. Currently shipping at Gray Marrow.',
   experience: [
     {
       company: 'Gray Marrow',

@@ -50,18 +50,23 @@ export function Contact() {
         {resume.email}
       </a>
       <div className="meta">
-        <a href={`tel:${resume.phone.replace(/\s/g, '')}`}>{resume.phone}</a>
-        <span>{resume.location}</span>
+        <a href={`mailto:${resume.email}`} data-cursor="hover">
+          Gmail ↗
+        </a>
         {resume.githubUrl ? (
-          <a href={resume.githubUrl} target="_blank" rel="noreferrer">
+          <a href={resume.githubUrl} target="_blank" rel="noreferrer" data-cursor="hover">
             GitHub ↗
           </a>
         ) : null}
         {resume.linkedinUrl ? (
-          <a href={resume.linkedinUrl} target="_blank" rel="noreferrer">
+          <a href={resume.linkedinUrl} target="_blank" rel="noreferrer" data-cursor="hover">
             LinkedIn ↗
           </a>
         ) : null}
+        <a href={`tel:${resume.phone.replace(/\s/g, '')}`} data-cursor="hover">
+          {resume.phone}
+        </a>
+        <span>{resume.location}</span>
       </div>
     </section>
   )
