@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 export default defineConfig({
   root: path.resolve(__dirname, 'site'),
   plugins: [react()],
-  base: process.env.VITE_BASE || '/',
+  base: process.env.VITE_BASE || '/gaganyadavportfolio/',
   build: {
     outDir: path.resolve(__dirname, 'docs'),
     emptyOutDir: true,
