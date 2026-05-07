@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: process.env.VITE_BASE || '/',
+  build: {
+    // GitHub User Pages can reliably publish from main + /docs (see repo Settings → Pages).
+    outDir: 'docs',
+    emptyOutDir: true,
+  },
 })
